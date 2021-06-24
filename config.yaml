@@ -1,0 +1,17 @@
+# redis configuration
+redis:
+  db: 0
+  addr: '192.168.230.129:6379'
+  password: 'ZZkde@#3d99'
+
+# mqtt configuration
+mqtt:
+  broker: '192.168.230.129'
+  port: 11883
+  clientId: 'zzkde-go-in'
+  userName: 'admin'
+  password: 'public'
+# system configuration
+system:
+  tcpPort: 8888
+  webPort: 8089
